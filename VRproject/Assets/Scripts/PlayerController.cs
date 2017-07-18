@@ -45,15 +45,15 @@ public class PlayerController : MonoBehaviour {
 
 			hitPainting = hit.transform.gameObject;
 
-			if (obj.CompareTag ("Painting")) {
-				print ("Found a painting: " + obj.transform.position);
-
-				rend = obj.GetComponent<Renderer>();
-				if (rend != null){
-					rend.material = selectedObjectMaterial;
-				}
-				isMoving = true;
-			}
+//			if (obj.CompareTag ("Painting")) {
+//				print ("Found a painting: " + obj.transform.position);
+//
+//				rend = obj.GetComponent<Renderer>();
+//				if (rend != null){
+//					rend.material = selectedObjectMaterial;
+//				}
+//				isMoving = true;
+//			}
 
 
 		}

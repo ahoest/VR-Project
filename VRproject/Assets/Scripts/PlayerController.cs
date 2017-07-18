@@ -10,6 +10,9 @@ public class PlayerController : MonoBehaviour {
 	private GameObject hitPainting;
 	private Rigidbody rb;
 
+	public Material selectedObjectMaterial;
+	public Renderer rend;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -44,6 +47,11 @@ public class PlayerController : MonoBehaviour {
 
 			if (obj.CompareTag ("Painting")) {
 				print ("Found a painting: " + obj.transform.position);
+
+				rend = obj.GetComponent<Renderer>();
+				if (rend != null){
+					rend.material = selectedObjectMaterial;
+				}
 				isMoving = true;
 			}
 

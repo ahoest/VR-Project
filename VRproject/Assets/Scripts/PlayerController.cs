@@ -10,8 +10,10 @@ public class PlayerController : MonoBehaviour {
 	private GameObject hitPainting;
 	private Rigidbody rb;
 
-	public Material selectedObjectMaterial;
-	public Renderer rend;
+//	public Material selectedObjectMaterial;
+//	public Renderer rend;
+
+	private GlowObject m_glowObject;
 
 	// Use this for initialization
 	void Start () {
@@ -45,15 +47,14 @@ public class PlayerController : MonoBehaviour {
 
 			hitPainting = hit.transform.gameObject;
 
-//			if (obj.CompareTag ("Painting")) {
-//				print ("Found a painting: " + obj.transform.position);
-//
-//				rend = obj.GetComponent<Renderer>();
-//				if (rend != null){
-//					rend.material = selectedObjectMaterial;
-//				}
+			if (obj.CompareTag ("Painting")) {
+				print ("Found a painting: " + obj.transform.position);
+
+				m_glowObject = (GlowObject)obj.GetComponent(typeof(GlowObject));
+				m_glowObject.showGlow();
+			
 //				isMoving = true;
-//			}
+			}
 
 
 		}

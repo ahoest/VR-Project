@@ -1,9 +1,12 @@
-VRproject/Assets/Imports/*
-VRproject/Assets/ProCore/*
 VRproject/Temp
 VRproject/obj
 VRproject/Library
 VRproject/Builds
+VRproject/Assets/ProCore/*
+VRproject/Assets/Packages/*
+VRproject/Assets/TutorialInfo
+VRproject/Assets/VRSampleScenes
+VRproject/Assets/VRStandardAssets
 
 # Visual Studio 2015 cache directory
 /.vs/

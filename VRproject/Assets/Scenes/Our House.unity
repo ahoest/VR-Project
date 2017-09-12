@@ -2320,30 +2320,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 628579326}
   m_Mesh: {fileID: 4300000, guid: a2bc5fda40d1ee24ea8d96aa11802285, type: 3}
---- !u!84 &653642923
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_Width: 913
-  m_Height: 183
-  m_AntiAliasing: 4
-  m_DepthFormat: 2
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_TextureSettings:
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapMode: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &658303217
 Prefab:
   m_ObjectHideFlags: 0
@@ -2394,6 +2370,30 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 441840, guid: dae7d646a7bef964da25da85bffd93af, type: 2}
   m_PrefabInternal: {fileID: 658303217}
+--- !u!84 &662620622
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_Width: 913
+  m_Height: 279
+  m_AntiAliasing: 4
+  m_DepthFormat: 2
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_TextureSettings:
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapMode: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &681904767
 Prefab:
   m_ObjectHideFlags: 0
@@ -2658,7 +2658,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh44510
+  m_Name: pb_Mesh68004
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -2786,7 +2786,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-64640
+  m_Name: pb_Mesh67908
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -4537,7 +4537,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh44606
+  m_Name: pb_Mesh68098
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -4942,7 +4942,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 653642923}
+  m_TargetTexture: {fileID: 662620622}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -5005,7 +5005,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh44744
+  m_Name: pb_Mesh68236
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -11688,7 +11688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 3264d49bcc9a5994baec39653f84c21e, type: 2}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.441}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
